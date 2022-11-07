@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+
+  </head>
+  
+
+  <body>
+
+      <div class="topnav">
+        <a class="active" href="hiking.html">Home</a>
+        <a href="#name">HikingPal.com</a>
+        <li><a href="#" onclick="self.close();" class="split">Exit</a></li> 
+      </div>
+
+      <div class="wrapper">
+        <div class="title">
+          <h1>Notes</h1>
+        </div>
+        <div class="contact-form">
+          <div class="input-fields">
+            <input id="fileName" type="text" class="input"  placeholder="Name">
+            <input type="text" class="input" placeholder="Email Address">
+            <input type="text" class="input" placeholder="Phone">
+            <input type="text" class="input" placeholder="Subject">
+          </div>
+          <div class="msg">
+            <textarea id="fileContents" placeholder="Message"></textarea>
+            <button id="btnCreate" class="btn btn-default">Create</button>
+            <button id="btnRead" class="btn btn-default">Read</button>
+            <button id="btnUpdate" class="btn btn-default">Updt</button>
+            <button id="btnDelete" class="btn btn-default">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
